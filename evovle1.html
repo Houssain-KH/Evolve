@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link href="https://fonts.googleapis.com/css?family=Lato:100,400" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:100,500" rel="stylesheet">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"> </script>
+	<link rel="stylesheet" href="dist/css/animsition.css">
+	<!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<!-- animsition.js -->
+	<script src="dist/js/animsition.min.js"></script>
+</head>
+<body>
+	
+	<div class="container-fluid">
+		<div class="row">
+			<div class = "col-lg-12 col-xs-12 text-center roro animsition-overlay" data-animsition-overlay="true"">
+			   	<h1 id="button">EVOLVE</h1>
+			   	<h3 class="soustitre">Build your future with us</h3>
+				<!-- <a href="#" class="enter" style="font-family: 'Lato', sans-serif; font-weight: 'light';">WELCOME</a> -->
+				<a href="index.html" class="enter animsition-link" data-animsition-out-class="overlay-slide-out-bottom" data-animsition-out-duration="1000" style="font-family: 'Lato', sans-serif; font-weight: 'light';">
+  					<span class="text">Click me</span>
+					<span class="line -right"></span>
+					<span class="line -top"></span>
+					<span class="line -left"></span>
+					<span class="line -bottom"></span>
+				</a>
+	    	</div>
+		</div>
+	</div>
+
+
+	<style type="text/css">
+	/**
+   Coded by /u/j0be in scss.
+   See scss source here -> https://codepen.io/j0be/pen/MKRVyN
+*/ 
+a { cursor: pointer; padding: 0.7em calc(0.7em * 1.2); display: inline-block; border: 3px solid transparent; position: relative; letter-spacing: 0.07em; } 
+
+a .text { transform: translate3d(0, 0.7em, 0); display: block; transition: transform 0.4s cubic-bezier(0.2, 0, 0, 1) 0.4s; } 
+
+a:after { position: absolute; content: ''; bottom: -3px; left: calc(0.7em * 1.2); right: calc(0.7em * 1.2); height: 3px; background: #EDC36D; z-index: -1; transition: transform 0.8s cubic-bezier(1, 0, 0.37, 1) 0.2s, right 0.2s cubic-bezier(0.04, 0.48, 0, 1) 0.6s, left 0.4s cubic-bezier(0.04, 0.48, 0, 1) 0.6s; transform-origin: left; } 
+
+
+.line { position: absolute; background: #EDC36D; } 
+
+.line.-right, .line.-left { width: 3px; bottom: -3px; top: -3px; transform: scale3d(1, 0, 1); } 
+
+.line.-top, .line.-bottom { height: 3px; left: -3px; right: -3px; transform: scale3d(0, 1, 1); } 
+
+.line.-right { right: -3px; transition: transform 0.1s cubic-bezier(1, 0, 0.65, 1.01) 0.23s; transform-origin: top; } 
+
+.line.-top { top: -3px; transition: transform 0.08s linear 0.43s; transform-origin: left; } 
+
+.line.-left { left: -3px; transition: transform 0.08s linear 0.51s; transform-origin: bottom; } 
+
+.line.-bottom { bottom: -3px; transition: transform 0.3s cubic-bezier(1, 0, 0.65, 1.01); transform-origin: right; } 
+
+a:hover .text, a:active .text { transform: translate3d(0, 0, 0); transition: transform 0.6s cubic-bezier(0.2, 0, 0, 1) 0.4s; } 
+
+a:hover:after, a:active:after { transform: scale3d(0, 1, 1); right: -3px; left: -3px; transform-origin: right; transition: transform 0.2s cubic-bezier(1, 0, 0.65, 1.01) 0.17s, right 0.2s cubic-bezier(1, 0, 0.65, 1.01), left 0s 0.3s; } 
+
+a:hover .line, a:active .line { transform: scale3d(1, 1, 1); } 
+
+a:hover .line.-right, a:active .line.-right { transition: transform 0.1s cubic-bezier(1, 0, 0.65, 1.01) 0.2s; transform-origin: bottom; } 
+
+a:hover .line.-top, a:active .line.-top { transition: transform 0.08s linear 0.4s; transform-origin: right; } 
+
+a:hover .line.-left, a:active .line.-left { transition: transform 0.08s linear 0.48s; transform-origin: top; } 
+
+a:hover .line.-bottom, a:active .line.-bottom { transition: transform 0.5s cubic-bezier(0, 0.53, 0.29, 1) 0.56s; transform-origin: left; } 
+
+
+
+
+
+
+body{
+			margin: 0;
+			padding: 0;
+		}
+		.roro{
+			background-color: #1C1B1B;
+			height: 100vh;
+			font-family:'Lato',sans-serif; 
+			vertical-align: middle;
+			padding-top: 40vh;
+		}
+		.roro a{
+			text-decoration: none;
+			color: white;
+			padding-top: 10px;
+			font-size: 1.2em;
+			transition: color 1s;
+		}
+		
+		#button {
+			font-weight: 100; 
+			font-size: 5vw;
+			letter-spacing: 20px;
+			color:white;
+		}
+		.soustitre{
+			font-size: 1.5vw;
+			font-family: 'Lato', sans-serif; 
+			color: #EDC36D;
+		}
+
+</style>
+
+ <script type="text/javascript">
+		  	$(document).ready(function() {
+  $(".animsition-overlay").animsition({
+    inClass: 'overlay-slide-in-bottom',
+    outClass: 'overlay-slide-out-bottom',
+    inDuration: 1500,
+    outDuration: 800,
+    linkElement: '.animsition-link',
+    // e.g. linkElement: 'a:not([target="_blank"]):not([href^="#"])'
+    loading: true,
+    loadingParentElement: 'body', //animsition wrapper element
+    loadingClass: 'animsition-loading',
+    loadingInner: '', // e.g '<img src="loading.svg" />'
+    timeout: false,
+    timeoutCountdown: 5000,
+    onLoadEvent: true,
+    browser: [ 'animation-duration', '-webkit-animation-duration'],
+    // "browser" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
+    // The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
+    overlay : true,
+    overlayClass : 'animsition-overlay-slide',
+    overlayParentElement : 'body',
+    transition: function(url){ window.location.href = url; }
+  });
+});
+		  </script>
+</body>
+</html>
