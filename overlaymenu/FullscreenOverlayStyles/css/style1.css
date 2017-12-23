@@ -112,3 +112,114 @@
 		min-height: 34px;
 	}
 }
+
+
+/* code rajouter par houssain*/
+
+
+body{
+	font-family: 'Lato', sans-serif !important;
+}
+a.animated-button.thar-one {
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+	color: black;
+	cursor: pointer;
+	display: block;
+	position: relative;
+	border: 2px solid #EDC36D;
+	border-radius: 20px;
+	transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}
+a.animated-button.thar-one:hover {
+	color: #000 !important;
+	background-color: transparent;
+	text-shadow: none;
+	border-radius: 20px;
+}
+a.animated-button.thar-one:hover:before {
+	bottom: 0%;
+	top: auto;
+	height: 100%;
+	border-radius: 20px;
+}
+a.animated-button.thar-one:before {
+	border-radius: 20px;
+	display: block;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	height: 0px;
+	width: 100%;
+	z-index: -1;
+	content: '';
+	color: #000 !important;
+	background: #EDC36D;
+	transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}
+
+
+
+
+	@media screen and (min-width: 800px) {
+		
+  .menu {
+    display: none;
+  }
+}
+@media screen and (max-width: 800px) {
+  .menu1 {
+    display: none;
+  }
+}
+.overlay{
+	font-family: 'Raleway' !important, sans-serif ;
+}
+.menu1 ul{
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+}
+.menu1 ul li {
+	display: inline-block;
+	padding: 40px;
+	font-size: 1.5em;
+	text-decoration: none;
+}
+.menu1 ul li a{
+	color: black !important;
+	text-decoration: none;
+}
+.menu1 ul li a:hover{
+	color: #EDC36D !important;
+}
+
+.homecontent{
+	text-align: center;
+	font-size: 5em;
+	margin-top: 19vh;
+	font-weight: 300;
+}
+
+.services h1{
+	text-align: center;
+	font-size: 1.2em;
+	margin-top: 10px;
+	
+}
+.contentservices{
+	margin: 20px;
+	border: solid 3px #EDC36D;
+	border-radius: 20px;
+	text-align: justify;
+	margin-top: 20vh;
+}
+.logo{
+	text-align: center;
+}
+.logo img{
+		height: 100px;
+		padding: 20px;
+
+}
