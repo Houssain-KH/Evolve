@@ -260,3 +260,24 @@ a.animated-button.thar-one:before {
 	height: 100px;
 	transition: 0.8s;
 }
+.logo1{
+	text-align: center;
+	background-image: url('../img/web2.png');
+	background-repeat: no-repeat;
+	background-position: center; 
+	background-size: 30%;
+	padding: 20px;
+	height: 100px;
+	margin-top: 20px;
+}
+.logo1:hover{
+	text-align: center;
+	background-image: url('../img/web.png');
+	background-repeat: no-repeat;
+	background-position: center; 
+	background-size: 30%;
+	padding: 20px;
+	height: 100px;
+	transition: 0.8s;
+	
+}
