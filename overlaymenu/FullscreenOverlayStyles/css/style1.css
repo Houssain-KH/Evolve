@@ -209,17 +209,39 @@ a.animated-button.thar-one:before {
 	
 }
 .contentservices{
-	margin: 20px;
+	margin: 10px;
 	border: solid 3px #EDC36D;
 	border-radius: 20px;
 	text-align: justify;
 	margin-top: 20vh;
+	padding: 20px;
+
+}
+.contentservices p{
+	padding: 20px;
+}
+.contentservices:hover{
+	color: white;
+	background-color: #1c1b1b;
+	transition: 0.8s;
 }
 .logo{
 	text-align: center;
+	background-image: url('../img/lol2.png');
+	background-repeat: no-repeat;
+	background-position: center; 
+	background-size: 20%;
+	padding: 20px;
+	height: 100px;
+	margin-top: 20px;
 }
-.logo img{
-		height: 100px;
-		padding: 20px;
-
+.logo:hover{
+	text-align: center;
+	background-image: url('../img/lol.png');
+	background-repeat: no-repeat;
+	background-position: center; 
+	background-size: 20%;
+	padding: 20px;
+	height: 100px;
+	transition: 0.8s;
 }
