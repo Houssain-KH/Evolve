@@ -169,6 +169,12 @@ a.animated-button.thar-one:before {
     display: none;
   }
 }
+@media screen and (min-width: 400px) {
+		
+  .menu {
+    padding-bottom: 0px !important;
+  }
+}
 @media screen and (max-width: 800px) {
   .menu1 {
     display: none;
