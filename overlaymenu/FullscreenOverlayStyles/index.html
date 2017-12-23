@@ -4,16 +4,19 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
 		<meta name="viewport" content="width=device-width, initial-scale=1"> 
-		<title>Fullscreen Overlay Styles &amp; Effects | Demo 1</title>
-		<meta name="description" content="Fullscreen Overlay Styles &amp; Effects" />
-		<meta name="keywords" content="fullscreen overlay, overlay menu, inspiration, styles, effect, css" />
-		<meta name="author" content="Codrops" />
-		<link rel="shortcut icon" href="../favicon.ico">
+		<title>EVOLVE</title>
+		<meta name="description" content="Evolve design and develop smart websites that's you need." />
+		<meta name="keywords" content="website, design, develop, styles, site web, css, marketing" />
+		<meta name="author" content="Houssain" />
 		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 		<link rel="stylesheet" type="text/css" href="css/demo.css" />
 		<link rel="stylesheet" type="text/css" href="css/style1.css" />
   		<script src="js/modernizr.custom.js"></script>
   		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  		<link rel="stylesheet" href="../../assets/css/Footer-white.css">
+  		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+  		<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
+  		<link href="https://fonts.googleapis.com/css?family=Raleway:100,500" rel="stylesheet">
 	</head>
 	<body>
 		<div class="container" >
@@ -26,10 +29,10 @@
 			<button type="button" class="overlay-close">Close</button>
 			<nav>
 				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Services</a></li>
-					<li><a href="#">Work</a></li>
-					<li><a href="#">Contact</a></li>
+					<li><a href="#">HOME</a></li>
+					<li><a href="#">SERVICES</a></li>
+					<li><a href="#">WORKS</a></li>
+					<li><a href="#">CONTACT</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -37,29 +40,79 @@
 		<div class="menu1">
 			<nav>
 				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Services</a></li>
-					<li><a href="#">Work</a></li>
-					<li><a href="#">Contact</a></li>
+					<li><a href="#">HOME</a></li>
+					<li><a href="#">SERVICES</a></li>
+					<li><a href="#">WORKS</a></li>
+					<li><a href="#">CONTACT</a></li>
 				</ul>
 			</nav>
 		</div>
 		
-		<p class="line-1 anim-typewriter ">Evolve design and develop <br>smart websites that's you need.</p>
-		
-		<div id="premier" class="container">
-			<div id="deuxieme">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-			</div>
-		</div>
-
+		<h1 class="homecontent">Evolve design and develop <br>smart websites that's you need.</h1>
+		<div> <a href="#" class="btn btn-sm animated-button thar-one">START YOUR PROJECT</a> </div>
+		<div class="content">
+</div>
+    <footer id="myFooter">
+        <div class="container">
+        <p class="footer-copyright">© 2017 EVOVLE. All Rights Reserved.</p>
+        </div>
+        <div class="footer-social">
+            <a href="#" class="social-icons"><i class="fa fa-facebook"></i></a>
+            <a href="#" class="social-icons"><i class="fa fa-google-plus"></i></a>
+            <a href="#" class="social-icons"><i class="fa fa-twitter"></i></a>
+        </div>
+    </footer>
 		<style type="text/css">
-			@media screen and (min-width: 800px) {
+
+
+body{
+	font-family: 'Lato', sans-serif !important;
+}
+a.animated-button.thar-one {
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+	color: black;
+	cursor: pointer;
+	display: block;
+	position: relative;
+	border: 2px solid #EDC36D;
+	border-radius: 20px;
+	transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}
+a.animated-button.thar-one:hover {
+	color: #000 !important;
+	background-color: transparent;
+	text-shadow: none;
+	border-radius: 20px;
+}
+a.animated-button.thar-one:hover:before {
+	bottom: 0%;
+	top: auto;
+	height: 100%;
+	border-radius: 20px;
+}
+a.animated-button.thar-one:before {
+	border-radius: 20px;
+	display: block;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	height: 0px;
+	width: 100%;
+	z-index: -1;
+	content: '';
+	color: #000 !important;
+	background: #EDC36D;
+	transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}
+
+
+
+
+	@media screen and (min-width: 800px) {
+		
   .menu {
     display: none;
   }
@@ -69,8 +122,12 @@
     display: none;
   }
 }
+.overlay{
+	font-family: 'Raleway' !important, sans-serif ;
+}
 .menu1 ul{
 	text-align: center;
+	font-family: 'Raleway', sans-serif;
 }
 .menu1 ul li {
 	display: inline-block;
@@ -86,46 +143,18 @@
 	color: #EDC36D !important;
 }
 
-
-
-
-
-
-.line-1{
-    position: relative;
-    top: 50%;  
-    width: 24em;
-    margin: 0 auto;
-    border-right: 3px solid #EDC36D !important ;
-    font-size: 4em;
-    white-space: nowrap;
-    overflow: hidden;
-    transform: translateY(-50%);  
-    margin-top: 30vh;  
-    text-align: center;
+.homecontent{
+	text-align: center;
+	font-size: 5em;
+	margin-top: 19vh;
+	font-weight: 300;
 }
-
-/* Animation */
-.anim-typewriter{
-  animation: typewriter 4s steps(44) 1s 1 normal both,
-             blinkTextCursor 500ms steps(44) infinite normal;
-}
-@keyframes typewriter{
-  from{width: 0;}
-  to{width: 14em;}
-}
-@keyframes blinkTextCursor{
-  from{border-right-color: rgba(255,255,255,.75);}
-  to{border-right-color: transparent;}
-}
-
-
-
 
 		</style>
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<script src="js/classie.js"></script>
 		<script src="js/demo1.js"></script>
 	</body>
