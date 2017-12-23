@@ -169,10 +169,14 @@ a.animated-button.thar-one:before {
     display: none;
   }
 }
-@media screen and (min-width: 400px) {
+@media screen and (max-width: 400px) {
 		
   .menu {
     padding-bottom: 0px !important;
+  }
+  .homecontent{
+  	margin-top: 50px !important;
+  	font-size: 2em !important;
   }
 }
 @media screen and (max-width: 800px) {
