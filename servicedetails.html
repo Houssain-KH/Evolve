@@ -62,7 +62,7 @@
 	<div class="row">
 		<div class="white web col-lg-12">
 			<h1>Websites</h1>
-			<img src="img/weblogo.png" class="img1">
+			<img src="img/weblogo.png" class="img1" id="web">
 			<p class="p left">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -70,7 +70,8 @@
 			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		</div>
-		
+	</div>
+	<div class="row">
 		<div class="black web1 col-lg-12">
 			<h1>SEO</h1>
 			<img src="img/weblogo.png" class="img2">
@@ -81,9 +82,11 @@
 			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		</div>
+		</div>
+		<div class="row">
 		<div class="white web col-lg-12">
 			<h1>Mobile application</h1>
-			<img src="img/weblogo.png" class="img1">
+			<img src="img/mobile.png" class="img1" id="mobile">
 			<p class="p left">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -91,9 +94,11 @@
 			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		</div>
+		</div>
+		<div class="row">
 		<div class="black web1 col-lg-12">
 			<h1>Windows Application</h1>
-			<img src="img/weblogo.png" class="img2">
+			<img src="img/windows.png" class="img2">
 			<p class="right p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -101,11 +106,12 @@
 			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		</div>
-		</div>
-		
+	
+</div>
+	
     <footer id="myFooter">
         <div class="container">
-        <p class="footer-copyright">© 2017 EVOLVE. All Rights Reserved.</p>
+        <p class="footer-copyright" style="padding-top: 16px;">© 2017 EVOLVE. All Rights Reserved.</p>
         </div>
         <div class="footer-social">
             <a href="#" class="social-icons"><i class="fa fa-facebook"></i></a>
@@ -114,22 +120,24 @@
         </div>
     </footer>
 <style type="text/css">
+.row{
+	min-height: 380px;
+}
 h1{
 	padding-bottom: 20px;
 }
-/*.web{
-	background-image: url('img/weblogo.png');
-	background-repeat: no-repeat;
-	float: right;
-	background-size: 285px 228px ;
 
+#web{
+	width: 280px;
+	height: 236.07px;
 }
-.web1{background-image: url('img/weblogo.png');
-	background-repeat: no-repeat;
-	float: left;
-	background-size: 285px 228px ;
 
-}*/
+#mobile{
+	width: 131.15px;
+	height: 236.07px;
+	margin-left: 27vw;
+	margin-right: 10px;
+}
 
 img{
 	width: 280px;
@@ -158,9 +166,11 @@ img{
 	}
 	.left{
 		float: left;
+		padding-left: 10px;
 	}
 	.right{
 		float: right;
+		padding-right: 10px;
 	}
 	.p{
 		max-width: 700px;
