@@ -58,8 +58,10 @@
 				</ul>
 			</nav>
 		</div>
-		
-	<div class="row">
+		 
+
+		 <div class="container-fluid">	
+		 	<div class="row">
 		<div class="white web col-lg-12">
 			<h1>Websites</h1>
 			<img src="img/weblogo.png" class="img1" id="web">
@@ -73,9 +75,9 @@
 	</div>
 	<div class="row">
 		<div class="black web1 col-lg-12">
-			<h1>SEO</h1>
-			<img src="img/weblogo.png" class="img2">
-			<p class="right p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			<h1>Mobile application</h1>
+			<img src="img/mobile.png" class="img2" id="mobile">
+			<p class="p right">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -85,20 +87,21 @@
 		</div>
 		<div class="row">
 		<div class="white web col-lg-12">
-			<h1>Mobile application</h1>
-			<img src="img/mobile.png" class="img1" id="mobile">
-			<p class="p left">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			<h1>SEO</h1>
+			<img src="img/loupe.png" class="img1" id="seo">
+			<p class="left p" style="padding-top: 10px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			
 		</div>
 		</div>
 		<div class="row">
 		<div class="black web1 col-lg-12">
 			<h1>Windows Application</h1>
-			<img src="img/windows.png" class="img2">
+			<img src="img/windows.png" class="img2" id="windows">
 			<p class="right p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -109,6 +112,9 @@
 	
 </div>
 	
+   	</div>
+
+		
     <footer id="myFooter">
         <div class="container">
         <p class="footer-copyright" style="padding-top: 16px;">© 2017 EVOLVE. All Rights Reserved.</p>
@@ -125,6 +131,7 @@
 }
 h1{
 	padding-bottom: 20px;
+	padding-top: 70px;
 }
 
 #web{
@@ -135,8 +142,16 @@ h1{
 #mobile{
 	width: 131.15px;
 	height: 236.07px;
-	margin-left: 27vw;
-	margin-right: 10px;
+	margin-right: 530px;
+	margin-left:10px;
+}
+#seo{
+	width: 225.88px;
+	height: 180px;
+	margin-right: 15px; 
+}
+#windows{
+	margin-left:15px;
 }
 
 img{
@@ -154,7 +169,8 @@ img{
 	.white{
 		text-align: center;
 		border-bottom: solid 3px #EDC36D ;
-		padding: 20px;
+		padding: 0;
+		
 	}
 
 	.black{
@@ -162,7 +178,8 @@ img{
 		color: white;
 		text-align: center;
 		border-bottom: solid 3px #EDC36D ;
-		padding: 20px;
+		padding: 0;
+		
 	}
 	.left{
 		float: left;
@@ -177,7 +194,7 @@ img{
 		font-size: 1.2em;
 		text-align: justify;
 		padding-top: 40px;
-		padding-bottom: 40px; 
+		padding-bottom: 70px; 
 	}
 </style>
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
