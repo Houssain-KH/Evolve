@@ -74,6 +74,15 @@
     color:#00aced;
 }
 
+#myFooter .fa-instagram:hover{
+    color: #E8667E;
+
+}
+
+#myFooter .fa-instagram:focus{
+    color:#E8667E;
+}
+
 
 
 /* CSS used for positioning the footers at the bottom of the page. */
